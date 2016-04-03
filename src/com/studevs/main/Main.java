@@ -11,9 +11,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Thread pi = new Thread(new ProcessInitializer());
-        Thread sjf = new Thread(new SJF());
-        pi.start();
-        sjf.start();
+        new Thread(new ProcessInitializer()).start();
+        new Thread(new SJF()).start();
     }
 }
