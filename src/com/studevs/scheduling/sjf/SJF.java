@@ -1,4 +1,4 @@
-package com.studevs.scheduling;
+package com.studevs.scheduling.sjf;
 
 /**
  *
